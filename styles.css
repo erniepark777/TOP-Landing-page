@@ -129,4 +129,26 @@ button {
 
 .section-three {
     background-color: #E5E7EB;
+    height: 350px;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quoted-by {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15px;
 }
