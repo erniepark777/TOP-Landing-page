@@ -63,7 +63,8 @@
 
 .hero p,
 .footer,
-.header-links {
+.header-links,
+.left p {
     font-size: 18px;
     font-weight: 100;
     color: #E5E7EB;
@@ -132,6 +133,7 @@ button {
     height: 350px;
     color: #1F2937;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -151,4 +153,38 @@ button {
     font-size: 24px;
     font-weight: 700;
     margin: 15px;
+}
+
+.section-four {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 100px; 
+}
+
+.blue-background {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.right button {
+    border: solid 1px #F9FAF8;
+}
+
+.footer {
+    height: 100px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
