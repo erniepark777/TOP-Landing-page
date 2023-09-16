@@ -112,7 +112,7 @@ button {
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
 }
 
 .card {
@@ -140,6 +140,7 @@ button {
 .container {
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 .inspiring-quote {
@@ -159,7 +160,7 @@ button {
     height: 200px;
     display: flex;
     justify-content: center;
-    padding: 100px; 
+    padding: 100px 150px;
 }
 
 .blue-background {
@@ -168,7 +169,7 @@ button {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .call-to-action {
